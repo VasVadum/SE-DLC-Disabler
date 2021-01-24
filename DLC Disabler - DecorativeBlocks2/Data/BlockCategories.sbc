@@ -1,0 +1,51 @@
+<?xml version="1.0"	encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CategoryClasses>
+		<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+			<Id>
+				<TypeId>GuiBlockCategoryDefinition</TypeId>
+				<SubtypeId/>
+			</Id>
+			<DisplayName>Disabled</DisplayName>
+			<Name>DecorativeBlocks2</Name>
+			<StrictSearch>true</StrictSearch>
+			<ItemIds>
+				<string>VendingMachine/FoodDispenser</string>
+				<string>Jukebox/Jukebox</string>
+				<string>LCDPanelsBlock/LabEquipment</string>
+				<string>CubeBlock/Shower</string>
+				<string>CubeBlock/WindowWall</string>
+				<string>CubeBlock/WindowWallLeft</string>
+				<string>CubeBlock/WindowWallRight</string>
+				<string>LCDPanelsBlock/MedicalStation</string>
+				<string>TextPanel/TransparentLCDLarge</string>
+				<string>TextPanel/TransparentLCDSmall</string>
+				<string>CubeBlock/Catwalk</string>
+				<string>CubeBlock/CatwalkCorner</string>
+				<string>CubeBlock/CatwalkStraight</string>
+				<string>CubeBlock/CatwalkWall</string>
+				<string>CubeBlock/CatwalkRailingEnd</string>
+				<string>CubeBlock/CatwalkRailingHalfRight</string>
+				<string>CubeBlock/CatwalkRailingHalfLeft</string>
+				<string>CubeBlock/CatwalkRailingHalfRight</string>
+				<string>CubeBlock/CatwalkRailingHalfLeft</string>
+				<string>CubeBlock/GratedStairs</string>
+				<string>CubeBlock/GratedHalfStairs</string>
+				<string>CubeBlock/GratedHalfStairsMirrored</string>
+				<string>CubeBlock/RailingStraight</string>
+				<string>CubeBlock/RailingDouble</string>
+				<string>CubeBlock/RailingCorner</string>
+				<string>CubeBlock/RailingDiagonal</string>
+				<string>CubeBlock/RailingHalfRight</string>
+				<string>CubeBlock/RailingHalfLeft</string>
+				<string>ReflectorLight/RotatingLightLarge</string>
+				<string>ReflectorLight/RotatingLightSmall</string>
+				<string>CubeBlock/Freight1</string>
+				<string>CubeBlock/Freight2</string>
+				<string>CubeBlock/Freight3</string>
+			</ItemIds>
+			<Public>false</Public>
+		</Category>
+
+	</CategoryClasses>
+</Definitions>

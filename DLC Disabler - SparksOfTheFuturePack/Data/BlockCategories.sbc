@@ -1,0 +1,47 @@
+<?xml version="1.0"	encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CategoryClasses>
+
+		<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+			<Id>
+				<TypeId>GuiBlockCategoryDefinition</TypeId>
+				<SubtypeId/>
+			</Id>
+			<DisplayName>Disabled</DisplayName>
+			<Name>SparksOfTheFutureBlocks</Name>
+			<StrictSearch>true</StrictSearch>
+			<ItemIds>
+				<string>TextPanel/LargeLCDPanel5x5</string>
+				<string>TextPanel/LargeLCDPanel5x3</string>
+				<string>TextPanel/LargeLCDPanel3x3</string>
+				<string>CubeBlock/LargeBlockSciFiWall</string>
+				<string>EmissiveBlock/LargeNeonTubesStraight1</string>
+				<string>EmissiveBlock/LargeNeonTubesStraight2</string>
+				<string>EmissiveBlock/LargeNeonTubesCorner</string>
+				<string>EmissiveBlock/LargeNeonTubesCorner90</string>
+				<string>EmissiveBlock/LargeNeonTubesBendUp</string>
+				<string>EmissiveBlock/LargeNeonTubesBendDown</string>
+				<string>EmissiveBlock/LargeNeonTubesStraightEnd1</string>
+				<string>EmissiveBlock/LargeNeonTubesStraightEnd2</string>
+				<string>EmissiveBlock/LargeNeonTubesStraightDown</string>
+				<string>EmissiveBlock/LargeNeonTubesU</string>
+				<string>TerminalBlock/LargeBlockSciFiTerminal</string>
+				<string>ButtonPanel/LargeSciFiButtonTerminal</string>
+				<string>ButtonPanel/LargeSciFiButtonPanel</string>
+				<string>Door/SmallSideDoor</string>
+				<string>CubeBlock/LargeBlockBarCounter</string>
+				<string>CubeBlock/LargeBlockBarCounterCorner</string>
+				<string>Thrust/SmallBlockLargeThrustSciFi</string>
+				<string>Thrust/SmallBlockSmallThrustSciFi</string>
+				<string>Thrust/SmallBlockLargeAtmosphericThrustSciFi</string>
+				<string>Thrust/SmallBlockSmallAtmosphericThrustSciFi</string>
+				<string>Thrust/LargeBlockLargeThrustSciFi</string>
+				<string>Thrust/LargeBlockSmallThrustSciFi</string>
+				<string>Thrust/LargeBlockLargeAtmosphericThrustSciFi</string>
+				<string>Thrust/LargeBlockSmallAtmosphericThrustSciFi</string>
+			</ItemIds>
+			<Public>false</Public>
+		</Category>
+
+	</CategoryClasses>
+</Definitions>

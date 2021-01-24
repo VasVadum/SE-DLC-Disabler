@@ -1,0 +1,36 @@
+<?xml version="1.0"	encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CategoryClasses>
+		<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+			<Id>
+				<TypeId>GuiBlockCategoryDefinition</TypeId>
+				<SubtypeId/>
+			</Id>
+			<DisplayName>Disabled</DisplayName>
+			<Name>DecorativeBlocks</Name>
+			<StrictSearch>true</StrictSearch>
+			<ItemIds>
+				<string>CryoChamber/LargeBlockBed</string>
+				<string>Cockpit/LargeBlockDesk</string>
+				<string>Cockpit/LargeBlockDeskCorner</string>
+				<string>CubeBlock/LargeBlockDeskChairless</string>
+				<string>CubeBlock/LargeBlockDeskChairlessCorner</string>
+				<string>Cockpit/LargeBlockCouch</string>
+				<string>Cockpit/LargeBlockCouchCorner</string>
+				<string>Kitchen/LargeBlockKitchen</string>
+				<string>Planter/LargeBlockPlanters</string>
+				<string>CargoContainer/LargeBlockLockerRoom</string>
+				<string>CargoContainer/LargeBlockLockerRoomCorner</string>
+				<string>CargoContainer/LargeBlockLockers</string>
+				<string>Cockpit/LargeBlockBathroomOpen</string>
+				<string>Cockpit/LargeBlockBathroom</string>
+				<string>Cockpit/LargeBlockToilet</string>
+				<string>Projector/LargeBlockConsole</string>
+				<string>Cockpit/SmallBlockCockpitIndustrial</string>
+				<string>Cockpit/LargeBlockCockpitIndustrial</string>
+			</ItemIds>
+			<Public>false</Public>
+		</Category>
+
+	</CategoryClasses>
+</Definitions>

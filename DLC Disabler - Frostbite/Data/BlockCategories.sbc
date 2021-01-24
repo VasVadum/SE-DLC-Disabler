@@ -1,0 +1,29 @@
+<?xml version="1.0"	encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CategoryClasses>
+			
+		<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+			<Id>
+				<TypeId>GuiBlockCategoryDefinition</TypeId>
+				<SubtypeId/>
+			</Id>
+			<DisplayName>Disabled</DisplayName>
+			<Name>FrozenBlocks</Name>
+			<StrictSearch>true</StrictSearch>
+			<ItemIds>
+				<string>RadioAntenna/LargeBlockRadioAntennaDish</string>
+				<string>Door/LargeBlockGate</string>
+				<string>Door/LargeBlockOffsetDoor</string>
+				<string>CubeBlock/DeadBody01</string>
+				<string>CubeBlock/DeadBody02</string>
+				<string>CubeBlock/DeadBody03</string>
+				<string>CubeBlock/DeadBody04</string>
+				<string>CubeBlock/DeadBody05</string>
+				<string>CubeBlock/DeadBody06</string>
+			</ItemIds>
+			<DLC>Frostbite</DLC>
+			<Public>false</Public>
+		</Category>
+
+	</CategoryClasses>
+</Definitions>

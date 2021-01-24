@@ -1,0 +1,44 @@
+<?xml version="1.0"	encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CategoryClasses>
+		<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+			<Id>
+				<TypeId>GuiBlockCategoryDefinition</TypeId>
+				<SubtypeId/>
+			</Id>
+			<DisplayName>Disabled</DisplayName>
+			<Name>ScrapRacePack</Name>
+			<StrictSearch>true</StrictSearch>
+			<ItemIds>
+				<string>ExhaustBlock/LargeExhaustPipe</string>
+				<string>Cockpit/BuggyCockpit</string>
+				<string>CubeBlock/Viewport1</string>
+				<string>CubeBlock/Viewport2</string>
+				<string>MotorSuspension/OffroadSuspension1x1</string>
+				<string>MotorSuspension/OffroadSuspension3x3</string>
+				<string>MotorSuspension/OffroadSuspension5x5</string>
+				<string>MotorSuspension/OffroadSuspension1x1mirrored</string>
+				<string>MotorSuspension/OffroadSuspension3x3mirrored</string>
+				<string>MotorSuspension/OffroadSuspension5x5mirrored</string>
+				<string>Wheel/OffroadRealWheel</string>
+				<string>Wheel/OffroadRealWheel1x1</string>
+				<string>Wheel/OffroadRealWheel5x5</string>
+				<string>Wheel/OffroadWheel1x1</string>
+				<string>Wheel/OffroadWheel3x3</string>
+				<string>Wheel/OffroadWheel5x5</string>
+				<string>InteriorLight/OffsetLight</string>
+				<string>ReflectorLight/OffsetSpotlight</string>
+				<string>CubeBlock/BarredWindow</string>
+				<string>CubeBlock/BarredWindowSlope</string>
+				<string>CubeBlock/BarredWindowSide</string>
+				<string>CubeBlock/BarredWindowFace</string>
+				<string>CubeBlock/StorageShelf1</string>
+				<string>CubeBlock/StorageShelf2</string>
+				<string>CubeBlock/StorageShelf3</string>
+			</ItemIds>
+			<DLC>ScrapRace</DLC>
+			<Public>false</Public>
+		</Category>
+
+	</CategoryClasses>
+</Definitions>

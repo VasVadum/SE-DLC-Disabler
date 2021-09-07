@@ -1,0 +1,57 @@
+<?xml version="1.0"	encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CategoryClasses>
+		<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+			<Id>
+				<TypeId>GuiBlockCategoryDefinition</TypeId>
+				<SubtypeId/>
+			</Id>
+			<DisplayName>DisplayName_DLC_IndustrialPackDLC</DisplayName>
+			<Name>IndustrialPack</Name>
+			<StrictSearch>true</StrictSearch>
+			<ItemIds>
+				<string>LandingGear/LargeBlockMagneticPlate</string>
+				<string>LandingGear/SmallBlockMagneticPlate</string>
+				<string>ButtonPanel/VerticalButtonPanelLarge</string>
+				<string>CargoContainer/LargeBlockLargeIndustrialContainer</string>
+				<string>OxygenTank/LargeHydrogenTankIndustrial</string>
+				<string>Thrust/SmallBlockLargeHydrogenThrustIndustrial</string>
+				<string>Thrust/SmallBlockSmallHydrogenThrustIndustrial</string>
+				<string>Thrust/LargeBlockLargeHydrogenThrustIndustrial</string>
+				<string>Thrust/LargeBlockSmallHydrogenThrustIndustrial</string>
+				<string>Conveyor/LargeBlockConveyorPipeJunction</string>
+				<string>Conveyor/LargeBlockConveyorPipeIntersection</string>
+				<string>ConveyorConnector/LargeBlockConveyorPipeSeamless</string>
+				<string>ConveyorConnector/LargeBlockConveyorPipeCorner</string>
+				<string>ConveyorConnector/LargeBlockConveyorPipeFlange</string>
+				<string>ConveyorConnector/LargeBlockConveyorPipeEnd</string>
+				<string>Assembler/LargeAssemblerIndustrial</string>
+				<string>Refinery/LargeRefineryIndustrial</string>
+				<string>CubeBlock/LargeBlockCylindricalColumn</string>
+				<string>CubeBlock/SmallBlockCylindricalColumn</string>
+				<string>ConveyorSorter/LargeBlockConveyorSorterIndustrial</string>
+				<string>CubeBlock/LargeGridBeamBlock</string>
+				<string>CubeBlock/LargeGridBeamBlockSlope</string>
+				<string>CubeBlock/LargeGridBeamBlockRound</string>
+				<string>CubeBlock/LargeGridBeamBlockSlope2x1Base</string>
+				<string>CubeBlock/LargeGridBeamBlockSlope2x1Tip</string>
+				<string>CubeBlock/LargeGridBeamBlockHalf</string>
+				<string>CubeBlock/LargeGridBeamBlockHalfSlope</string>
+				<string>CubeBlock/LargeGridBeamBlockEnd</string>
+				<string>CubeBlock/LargeGridBeamBlockJunction</string>
+				<string>CubeBlock/LargeGridBeamBlockTJunction</string>
+				<string>CubeBlock/SmallGridBeamBlock</string>
+				<string>CubeBlock/SmallGridBeamBlockSlope</string>
+				<string>CubeBlock/SmallGridBeamBlockRound</string>
+				<string>CubeBlock/SmallGridBeamBlockSlope2x1Base</string>
+				<string>CubeBlock/SmallGridBeamBlockSlope2x1Tip</string>
+				<string>CubeBlock/SmallGridBeamBlockHalf</string>
+				<string>CubeBlock/SmallGridBeamBlockHalfSlope</string>
+				<string>CubeBlock/SmallGridBeamBlockEnd</string>
+				<string>CubeBlock/SmallGridBeamBlockJunction</string>
+				<string>CubeBlock/SmallGridBeamBlockTJunction</string>
+			</ItemIds>
+		<public>false</public>
+		</Category>
+	</CategoryClasses>
+</Definitions>

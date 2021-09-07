@@ -1,0 +1,32 @@
+<?xml version="1.0"	encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CategoryClasses>
+			<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+					<Id>
+						<TypeId>GuiBlockCategoryDefinition</TypeId>
+						<SubtypeId/>
+					</Id>
+					<DisplayName>Disabled</DisplayName>
+					<Name>WarfarePack1</Name>
+					<StrictSearch>true</StrictSearch>
+					<ItemIds>
+						<string>CargoContainer/LargeBlockWeaponRack</string>
+						<string>CargoContainer/SmallBlockWeaponRack</string>
+						<string>CubeBlock/FireCover</string>
+						<string>CubeBlock/FireCoverCorner</string>
+						<string>CubeBlock/HalfWindow</string>
+						<string>CubeBlock/HalfWindowInv</string>
+						<string>CubeBlock/HalfWindowCorner</string>
+						<string>CubeBlock/HalfWindowCornerInv</string>
+						<string>CubeBlock/Embrasure</string>
+						<string>CubeBlock/PassageSciFi</string>
+						<string>InteriorLight/PassageSciFiLight</string>
+						<string>CubeBlock/PassageSciFiWall</string>
+						<string>CubeBlock/PassageSciFiIntersection</string>
+						<string>CubeBlock/PassageSciFiGate</string>
+					</ItemIds>
+				<GuiVisible>false</GuiVisible>
+				<Public>false</Public>
+			</Category>
+	</CategoryClasses>
+</Definitions>

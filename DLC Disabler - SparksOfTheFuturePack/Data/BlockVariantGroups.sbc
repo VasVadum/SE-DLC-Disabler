@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ThrusterSciFiAtmoGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\Large_AtmosphericThrusterLarge_SciFi.dds</Icon>
+            <DisplayName>DisplayName_Block_LargeAtmoThrustSciFi</DisplayName>
+            <Description>Description_AtmosphericThrust</Description>
+            <Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Monolith" />
+                <!--<Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeAtmosphericThrustSciFi" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallAtmosphericThrustSciFi" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeAtmosphericThrustSciFi" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallAtmosphericThrustSciFi" />-->
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ThrusterSciFiIonGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\large_IonThrusterLarge_SciFi.dds</Icon>
+            <DisplayName>DisplayName_Block_LargeThrustSciFi</DisplayName>
+            <Description>Description_IonThrust</Description>
+            <Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Monolith" />
+                <!--<Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeThrustSciFi" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrustSciFi" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeThrustSciFi" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallThrustSciFi" />-->
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LCDGroupSOTF" />
+            <Icon>Textures\GUI\Icons\Cubes\LCDPanel3x3.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_LCDGroupSOTF</DisplayName>
+            <Description>Description_BlockGroup_LCDGroup</Description>
+            <Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Monolith" />
+                <!--<Block Type="MyObjectBuilder_TextPanel" Subtype="LargeLCDPanel5x5" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeLCDPanel5x3" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeLCDPanel3x3" />-->
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="InteriorStructureGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\cover_wall_full.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_InteriorStructureGroup</DisplayName>
+            <Description>Description_BlockGroup_InteriorStructureGroup</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockInteriorWall" />
+                <!--<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockSciFiWall" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeInteriorPillar" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeCoverWall" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeCoverWallHalf" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="FireCover" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="FireCoverCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockCylindricalColumn" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockCylindricalColumn" />-->
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DecorativeUtilityGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\Kitchen.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_DecorativeUtilityGroup</DisplayName>
+            <Description>Description_BlockGroup_DecorativeUtilityGroup</Description>
+            <Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Monolith" />
+                <!--<Block Type="MyObjectBuilder_Planter" Subtype="LargeBlockPlanters" />
+                <Block Type="MyObjectBuilder_Kitchen" Subtype="LargeBlockKitchen" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockBarCounter" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockBarCounterCorner" />
+                <Block Type="MyObjectBuilder_LCDPanelsBlock" Subtype="LabEquipment" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Freight1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Freight2" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Freight3" />-->
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="NeonTubes" />
+            <Icon>Textures\GUI\Icons\Cubes\NeonTubesStraight1.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_NeonTubes</DisplayName>
+            <Description>Description_NeonTubes</Description>
+            <Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Monolith" />
+                <!--<Block Type="MyObjectBuilder_EmissiveBlock" Subtype="LargeNeonTubesStraight1" />
+                <Block Type="MyObjectBuilder_EmissiveBlock" Subtype="LargeNeonTubesStraight2" />
+                <Block Type="MyObjectBuilder_EmissiveBlock" Subtype="LargeNeonTubesCorner" />
+                <Block Type="MyObjectBuilder_EmissiveBlock" Subtype="LargeNeonTubesBendUp" />
+                <Block Type="MyObjectBuilder_EmissiveBlock" Subtype="LargeNeonTubesBendDown" />
+                <Block Type="MyObjectBuilder_EmissiveBlock" Subtype="LargeNeonTubesStraightEnd1" />
+                <Block Type="MyObjectBuilder_EmissiveBlock" Subtype="LargeNeonTubesStraightEnd2" />
+                <Block Type="MyObjectBuilder_EmissiveBlock" Subtype="LargeNeonTubesStraightDown" />
+                <Block Type="MyObjectBuilder_EmissiveBlock" Subtype="LargeNeonTubesU" />-->
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ButtonPanelGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\ButtonPanel.dds</Icon>
+            <DisplayName>DisplayName_Block_ButtonPanel</DisplayName>
+            <Description>Description_ButtonPanel</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="ButtonPanelLarge" />
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="ButtonPanelSmall" />
+                <!--<Block Type="MyObjectBuilder_ButtonPanel" Subtype="LargeSciFiButtonPanel" />
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="LargeSciFiButtonTerminal" />-->
+                <Block Type="MyObjectBuilder_TerminalBlock" Subtype="ControlPanel" />
+                <Block Type="MyObjectBuilder_TerminalBlock" Subtype="SmallControlPanel" />
+                <!--<Block Type="MyObjectBuilder_TerminalBlock" Subtype="LargeBlockSciFiTerminal" />
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="VerticalButtonPanelLarge" />-->
+            </Blocks>
+        </BlockVariantGroup>
+        
+    </BlockVariantGroups>
+</Definitions>

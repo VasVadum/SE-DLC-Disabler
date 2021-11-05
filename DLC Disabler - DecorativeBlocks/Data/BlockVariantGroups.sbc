@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CockpitGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\CockpitSmall.dds</Icon>
+            <DisplayName>DisplayName_Block_Cockpit2</DisplayName>
+            <Description>Description_ControlStation</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpitSeat" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="SmallBlockCockpit" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="DBSmallBlockFighterCockpit" />
+                <!--<Block Type="MyObjectBuilder_Cockpit" Subtype="SmallBlockCockpitIndustrial" />-->
+                <!--<Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpitIndustrial" />-->
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DeskGroup" />
+            <DisplayName>DisplayName_Block_Desk</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Desk.dds</Icon>
+            <Description>Description_Desk</Description>
+            <Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Monolith" />
+                <!--<Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockDesk" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockDeskChairless" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockDeskCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockDeskChairlessCorner" />-->
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CouchGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\Couch.dds</Icon>
+            <DisplayName>DisplayName_Block_Couch</DisplayName>
+            <Description>Description_Couch</Description>
+            <Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Monolith" />
+                <!--<Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCouch" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCouchCorner" />
+                <Block Type="MyObjectBuilder_CryoChamber" Subtype="LargeBlockBed" />-->
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DecorativeUtilityGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\Kitchen.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_DecorativeUtilityGroup</DisplayName>
+            <Description>Description_BlockGroup_DecorativeUtilityGroup</Description>
+            <Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Monolith" />
+                <!--<Block Type="MyObjectBuilder_Planter" Subtype="LargeBlockPlanters" />
+                <Block Type="MyObjectBuilder_Kitchen" Subtype="LargeBlockKitchen" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockBarCounter" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockBarCounterCorner" />
+                <Block Type="MyObjectBuilder_LCDPanelsBlock" Subtype="LabEquipment" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Freight1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Freight2" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Freight3" />-->
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>            
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LockersGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\LockerRoom.dds</Icon>
+            <DisplayName>DisplayName_Block_LockerRoom</DisplayName>
+            <Description>Description_LockerRoomCorner</Description>
+            <Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Monolith" />
+                <!--<Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLockerRoom" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLockerRoomCorner" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLockers" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockWeaponRack" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockWeaponRack" />-->
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>            
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="BathroomGroup" />
+            <DisplayName>DisplayName_Block_Shower</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Shower.dds</Icon>
+            <Description>Description_Shower</Description>
+            <Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Monolith" />
+                <!--<Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockBathroomOpen" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockToilet" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockBathroom" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Shower" />-->
+            </Blocks>
+        </BlockVariantGroup>
+        
+    </BlockVariantGroups>
+</Definitions>

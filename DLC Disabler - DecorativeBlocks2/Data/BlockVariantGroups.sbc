@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="MedicalGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\medical_room.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_MedicalGroup</DisplayName>
+            <Description>Description_BlockGroup_MedicalGroup</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CryoChamber" Subtype="LargeBlockCryoChamber" />
+                <Block Type="MyObjectBuilder_CryoChamber" Subtype="SmallBlockCryoChamber" />
+                <Block Type="MyObjectBuilder_MedicalRoom" Subtype="LargeMedicalRoom" />
+                <!--<Block Type="MyObjectBuilder_LCDPanelsBlock" Subtype="MedicalStation" />-->
+            </Blocks>
+        </BlockVariantGroup>
+
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="StairsGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\stairs.dds</Icon>
+            <DisplayName>DisplayName_Block_Stairs</DisplayName>
+            <Description>Description_Stairs</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeStairs" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeRamp" />
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="" />
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="LadderSmall" />
+                <!--<Block Type="MyObjectBuilder_CubeBlock" Subtype="GratedStairs" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="GratedHalfStairs" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="GratedHalfStairsMirrored" />-->
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LCDGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\TextPanel.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_LCDGroup</DisplayName>
+            <Description>Description_BlockGroup_LCDGroup</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeTextPanel" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeLCDPanelWide" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeLCDPanel" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallTextPanel" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallLCDPanelWide" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallLCDPanel" />
+                <!--<Block Type="MyObjectBuilder_TextPanel" Subtype="TransparentLCDLarge" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="TransparentLCDSmall" />-->
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LightingGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\interior_light.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_LightingGroup</DisplayName>
+            <Description>Description_BlockGroup_LightingGroup</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="LargeBlockFrontLight" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="SmallBlockFrontLight" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallLight" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockSmallLight" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockLight_1corner" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockLight_2corner" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockLight_1corner" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockLight_2corner" />
+                <!--<Block Type="MyObjectBuilder_ReflectorLight" Subtype="RotatingLightLarge" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="RotatingLightSmall" />-->
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="OffsetLight" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="OffsetSpotlight" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DecorativeUtilityGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\Kitchen.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_DecorativeUtilityGroup</DisplayName>
+            <Description>Description_BlockGroup_DecorativeUtilityGroup</Description>
+            <Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Monolith" />
+                <!--<Block Type="MyObjectBuilder_Planter" Subtype="LargeBlockPlanters" />
+                <Block Type="MyObjectBuilder_Kitchen" Subtype="LargeBlockKitchen" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockBarCounter" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockBarCounterCorner" />
+                <Block Type="MyObjectBuilder_LCDPanelsBlock" Subtype="LabEquipment" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Freight1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Freight2" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Freight3" />-->
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>            
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="BathroomGroup" />
+            <DisplayName>DisplayName_Block_Shower</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Shower.dds</Icon>
+            <Description>Description_Shower</Description>
+            <Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Monolith" />
+                <!--<Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockBathroomOpen" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockToilet" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockBathroom" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Shower" />-->
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RailingGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\RailingStraight.dds</Icon>
+            <DisplayName>DisplayName_Block_RailingStraight</DisplayName>
+            <Description>Description_RailingStraight</Description>
+            <Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Monolith" />
+                <!--<Block Type="MyObjectBuilder_CubeBlock" Subtype="RailingStraight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="RailingDouble" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="RailingDiagonal" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="RailingCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="RailingHalfRight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="RailingHalfLeft" />-->
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DecoCatwalkGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\GratedCatwalkWall.dds</Icon>
+            <DisplayName>DisplayName_Block_CatwalkWall</DisplayName>
+            <Description>Description_CatwalkWall</Description>
+            <Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Monolith" />
+                <!--<Block Type="MyObjectBuilder_CubeBlock" Subtype="Catwalk" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="CatwalkStraight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="CatwalkCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="CatwalkWall" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="CatwalkRailingEnd" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="CatwalkRailingHalfRight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="CatwalkRailingHalfLeft" />-->
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ShutterGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\window.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_ShutterGroup</DisplayName>
+            <Description>Description_VerticalWindow</Description>
+            <Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Monolith" />
+                <!--<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWindowSquare" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWindowEdge" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="WindowWall" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="WindowWallLeft" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="WindowWallRight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Viewport1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Viewport2" />-->
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SoundGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\SoundBlock.dds</Icon>
+            <DisplayName>DisplayName_Block_SoundBlock</DisplayName>
+            <Description>Description_Sound</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_SoundBlock" Subtype="LargeBlockSoundBlock" />
+                <Block Type="MyObjectBuilder_SoundBlock" Subtype="SmallBlockSoundBlock" />
+                <!--<Block Type="MyObjectBuilder_Jukebox" Subtype="Jukebox" />-->
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EconomyGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\ATM.dds</Icon>
+            <DisplayName>DisplayName_Block_ATM</DisplayName>
+            <Description>Description_AtmBlock</Description>
+            <Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Monolith" />
+                <!--<Block Type="MyObjectBuilder_StoreBlock" Subtype="AtmBlock" />
+                <Block Type="MyObjectBuilder_VendingMachine" Subtype="VendingMachine" />
+                <Block Type="MyObjectBuilder_VendingMachine" Subtype="FoodDispenser" />-->
+            </Blocks>
+        </BlockVariantGroup>
+        
+    </BlockVariantGroups>
+</Definitions>

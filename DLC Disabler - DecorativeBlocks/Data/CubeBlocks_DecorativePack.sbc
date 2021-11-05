@@ -39,16 +39,16 @@
 				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DeskConstruction_3.mwm" />
 			</BuildProgressModels>
 			<VoxelPlacement>
-					<StaticMode>
-							<PlacementMode>OutsideVoxel</PlacementMode>
-							<MaxAllowed>0.2</MaxAllowed>
-							<MinAllowed>0</MinAllowed>
-					</StaticMode>
-					<DynamicMode>
-							<PlacementMode>OutsideVoxel</PlacementMode>
-							<MaxAllowed>0.2</MaxAllowed>
-							<MinAllowed>0</MinAllowed>
-					</DynamicMode>
+				<StaticMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</StaticMode>
+				<DynamicMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</DynamicMode>
 			</VoxelPlacement>
 			<BlockPairName>Desk</BlockPairName>
 			<MirroringZ>Y</MirroringZ>
@@ -101,16 +101,16 @@
 				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DeskCornerConstruction_3.mwm" />
 			</BuildProgressModels>
 			<VoxelPlacement>
-					<StaticMode>
-							<PlacementMode>OutsideVoxel</PlacementMode>
-							<MaxAllowed>0.2</MaxAllowed>
-							<MinAllowed>0</MinAllowed>
-					</StaticMode>
-					<DynamicMode>
-							<PlacementMode>OutsideVoxel</PlacementMode>
-							<MaxAllowed>0.2</MaxAllowed>
-							<MinAllowed>0</MinAllowed>
-					</DynamicMode>
+				<StaticMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</StaticMode>
+				<DynamicMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</DynamicMode>
 			</VoxelPlacement>
 			<BlockPairName>DeskCorner</BlockPairName>
 			<MirroringX>MinusHalfY</MirroringX>
@@ -164,16 +164,16 @@
 				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DeskChairlessConstruction_3.mwm" />
 			</BuildProgressModels>
 			<VoxelPlacement>
-					<StaticMode>
-							<PlacementMode>OutsideVoxel</PlacementMode>
-							<MaxAllowed>0.2</MaxAllowed>
-							<MinAllowed>0</MinAllowed>
-					</StaticMode>
-					<DynamicMode>
-							<PlacementMode>OutsideVoxel</PlacementMode>
-							<MaxAllowed>0.2</MaxAllowed>
-							<MinAllowed>0</MinAllowed>
-					</DynamicMode>
+				<StaticMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</StaticMode>
+				<DynamicMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</DynamicMode>
 			</VoxelPlacement>
 			<BlockPairName>DeskChairless</BlockPairName>
 			<MirroringZ>Y</MirroringZ>
@@ -225,16 +225,16 @@
 				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DeskChairlessCornerConstruction_3.mwm" />
 			</BuildProgressModels>
 			<VoxelPlacement>
-					<StaticMode>
-							<PlacementMode>OutsideVoxel</PlacementMode>
-							<MaxAllowed>0.2</MaxAllowed>
-							<MinAllowed>0</MinAllowed>
-					</StaticMode>
-					<DynamicMode>
-							<PlacementMode>OutsideVoxel</PlacementMode>
-							<MaxAllowed>0.2</MaxAllowed>
-							<MinAllowed>0</MinAllowed>
-					</DynamicMode>
+				<StaticMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</StaticMode>
+				<DynamicMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</DynamicMode>
 			</VoxelPlacement>
 			<BlockPairName>DeskChairlessCorner</BlockPairName>
 			<MirroringX>MinusHalfY</MirroringX>
@@ -344,16 +344,16 @@
 				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BedConstruction_3.mwm" />
 			</BuildProgressModels>
 			<VoxelPlacement>
-					<StaticMode>
-							<PlacementMode>OutsideVoxel</PlacementMode>
-							<MaxAllowed>0.2</MaxAllowed>
-							<MinAllowed>0</MinAllowed>
-					</StaticMode>
-					<DynamicMode>
-							<PlacementMode>OutsideVoxel</PlacementMode>
-							<MaxAllowed>0.2</MaxAllowed>
-							<MinAllowed>0</MinAllowed>
-					</DynamicMode>
+				<StaticMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</StaticMode>
+				<DynamicMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</DynamicMode>
 			</VoxelPlacement>
 			<BlockPairName>Bed</BlockPairName>
 			<MirroringX>Y</MirroringX>
@@ -560,16 +560,16 @@
 				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CouchConstruction_3.mwm" />
 			</BuildProgressModels>
 			<VoxelPlacement>
-					<StaticMode>
-							<PlacementMode>OutsideVoxel</PlacementMode>
-							<MaxAllowed>0.2</MaxAllowed>
-							<MinAllowed>0</MinAllowed>
-					</StaticMode>
-					<DynamicMode>
-							<PlacementMode>OutsideVoxel</PlacementMode>
-							<MaxAllowed>0.2</MaxAllowed>
-							<MinAllowed>0</MinAllowed>
-					</DynamicMode>
+				<StaticMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</StaticMode>
+				<DynamicMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</DynamicMode>
 			</VoxelPlacement>
 			<BlockPairName>Couch</BlockPairName>
 			<MirroringZ>Y</MirroringZ>
@@ -623,16 +623,16 @@
 				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CouchCornerConstruction_3.mwm" />
 			</BuildProgressModels>
 			<VoxelPlacement>
-					<StaticMode>
-							<PlacementMode>OutsideVoxel</PlacementMode>
-							<MaxAllowed>0.2</MaxAllowed>
-							<MinAllowed>0</MinAllowed>
-					</StaticMode>
-					<DynamicMode>
-							<PlacementMode>OutsideVoxel</PlacementMode>
-							<MaxAllowed>0.2</MaxAllowed>
-							<MinAllowed>0</MinAllowed>
-					</DynamicMode>
+				<StaticMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</StaticMode>
+				<DynamicMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</DynamicMode>
 			</VoxelPlacement>
 			<BlockPairName>CouchCorner</BlockPairName>
 			<MirroringX>MinusHalfY</MirroringX>
@@ -736,16 +736,16 @@
 				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BathroomOpenConstruction_3.mwm" />
 			</BuildProgressModels>
 			<VoxelPlacement>
-					<StaticMode>
-							<PlacementMode>OutsideVoxel</PlacementMode>
-							<MaxAllowed>0.2</MaxAllowed>
-							<MinAllowed>0</MinAllowed>
-					</StaticMode>
-					<DynamicMode>
-							<PlacementMode>OutsideVoxel</PlacementMode>
-							<MaxAllowed>0.2</MaxAllowed>
-							<MinAllowed>0</MinAllowed>
-					</DynamicMode>
+				<StaticMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</StaticMode>
+				<DynamicMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</DynamicMode>
 			</VoxelPlacement>
 			<BlockPairName>BathroomOpen</BlockPairName>
 			<MirroringX>Y</MirroringX>
@@ -764,7 +764,7 @@
 			<Public>false</Public>
 		</Definition>
 	
-	<Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+		<Definition xsi:type="MyObjectBuilder_CockpitDefinition">
 			<Id>
 				<TypeId>Cockpit</TypeId>
 				<SubtypeId>LargeBlockBathroom</SubtypeId>
@@ -804,16 +804,16 @@
 				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BathroomConstruction_3.mwm" />
 			</BuildProgressModels>
 			<VoxelPlacement>
-					<StaticMode>
-							<PlacementMode>OutsideVoxel</PlacementMode>
-							<MaxAllowed>0.2</MaxAllowed>
-							<MinAllowed>0</MinAllowed>
-					</StaticMode>
-					<DynamicMode>
-							<PlacementMode>OutsideVoxel</PlacementMode>
-							<MaxAllowed>0.2</MaxAllowed>
-							<MinAllowed>0</MinAllowed>
-					</DynamicMode>
+				<StaticMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</StaticMode>
+				<DynamicMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</DynamicMode>
 			</VoxelPlacement>
 			<BlockPairName>Bathroom</BlockPairName>
 			<MirroringX>Y</MirroringX>
@@ -866,16 +866,16 @@
 				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ToiletConstruction_3.mwm" />
 			</BuildProgressModels>
 			<VoxelPlacement>
-					<StaticMode>
-							<PlacementMode>OutsideVoxel</PlacementMode>
-							<MaxAllowed>0.2</MaxAllowed>
-							<MinAllowed>0</MinAllowed>
-					</StaticMode>
-					<DynamicMode>
-							<PlacementMode>OutsideVoxel</PlacementMode>
-							<MaxAllowed>0.2</MaxAllowed>
-							<MinAllowed>0</MinAllowed>
-					</DynamicMode>
+				<StaticMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</StaticMode>
+				<DynamicMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</DynamicMode>
 			</VoxelPlacement>
 			<BlockPairName>Toilet</BlockPairName>
 			<MirroringX>Y</MirroringX>
@@ -945,7 +945,7 @@
 			<IsAirTight>false</IsAirTight>
 			<AllowScaling>true</AllowScaling>
 			<IgnoreSize>true</IgnoreSize>
-		<RotationAngleStepDeg>1</RotationAngleStepDeg>
+			<RotationAngleStepDeg>1</RotationAngleStepDeg>
 			<Public>false</Public>
 		</Definition>
 
@@ -992,11 +992,11 @@
 				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CockpitIndustrialConstruction_3.mwm" />
 			</BuildProgressModels>
 				<ScreenAreas>
-						<ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_TopLeft" TextureResolution="256" ScreenWidth="7" ScreenHeight="5" Script="TSS_EnergyHydrogen" />
-						<ScreenArea Name="CockpitScreen_02" DisplayName="DisplayName_Screen_TopCenter" TextureResolution="256" ScreenWidth="3" ScreenHeight="2" Script="TSS_Velocity" />
-						<ScreenArea Name="CockpitScreen_03" DisplayName="DisplayName_Screen_TopRight" TextureResolution="256" ScreenWidth="7" ScreenHeight="5" Script="TSS_Gravity" />
-						<ScreenArea Name="CockpitScreen_04" DisplayName="DisplayName_Screen_Keyboard" TextureResolution="128" ScreenWidth="2" ScreenHeight="1" Script="TSS_ArtificialHorizon" />
-						<ScreenArea Name="CockpitScreen_05" DisplayName="DisplayName_Screen_Numpad" TextureResolution="128" ScreenWidth="5" ScreenHeight="6" />
+					<ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_TopLeft" TextureResolution="256" ScreenWidth="7" ScreenHeight="5" Script="TSS_EnergyHydrogen" />
+					<ScreenArea Name="CockpitScreen_02" DisplayName="DisplayName_Screen_TopCenter" TextureResolution="256" ScreenWidth="3" ScreenHeight="2" Script="TSS_Velocity" />
+					<ScreenArea Name="CockpitScreen_03" DisplayName="DisplayName_Screen_TopRight" TextureResolution="256" ScreenWidth="7" ScreenHeight="5" Script="TSS_Gravity" />
+					<ScreenArea Name="CockpitScreen_04" DisplayName="DisplayName_Screen_Keyboard" TextureResolution="128" ScreenWidth="2" ScreenHeight="1" Script="TSS_ArtificialHorizon" />
+					<ScreenArea Name="CockpitScreen_05" DisplayName="DisplayName_Screen_Numpad" TextureResolution="128" ScreenWidth="5" ScreenHeight="6" />
 				</ScreenAreas>
 			<BlockPairName>CockpitIndustrial</BlockPairName>
 			<MirroringZ>Y</MirroringZ>
@@ -1073,12 +1073,12 @@
 				</DynamicMode>
 			</VoxelPlacement>
 				<ScreenAreas>
-						<ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="256" ScreenWidth="5" ScreenHeight="3" Script="TSS_ClockAnalog" />
-						<ScreenArea Name="CockpitScreen_02" DisplayName="DisplayName_Screen_TopLeft" TextureResolution="256" ScreenWidth="10" ScreenHeight="7" Script="TSS_EnergyHydrogen" />
-						<ScreenArea Name="CockpitScreen_03" DisplayName="DisplayName_Screen_TopCenter" TextureResolution="256" ScreenWidth="10" ScreenHeight="7" Script="TSS_Velocity" />
-						<ScreenArea Name="CockpitScreen_04" DisplayName="DisplayName_Screen_TopRight" TextureResolution="256" ScreenWidth="5" ScreenHeight="3" Script="TSS_Gravity" />
-						<ScreenArea Name="CockpitScreen_05" DisplayName="DisplayName_Screen_Keyboard" TextureResolution="256" ScreenWidth="5" ScreenHeight="3" Script="TSS_ArtificialHorizon"/>
-						<ScreenArea Name="CockpitScreen_06" DisplayName="DisplayName_Screen_Numpad" TextureResolution="256" ScreenWidth="4" ScreenHeight="5" />
+					<ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="256" ScreenWidth="5" ScreenHeight="3" Script="TSS_ClockAnalog" />
+					<ScreenArea Name="CockpitScreen_02" DisplayName="DisplayName_Screen_TopLeft" TextureResolution="256" ScreenWidth="10" ScreenHeight="7" Script="TSS_EnergyHydrogen" />
+					<ScreenArea Name="CockpitScreen_03" DisplayName="DisplayName_Screen_TopCenter" TextureResolution="256" ScreenWidth="10" ScreenHeight="7" Script="TSS_Velocity" />
+					<ScreenArea Name="CockpitScreen_04" DisplayName="DisplayName_Screen_TopRight" TextureResolution="256" ScreenWidth="5" ScreenHeight="3" Script="TSS_Gravity" />
+					<ScreenArea Name="CockpitScreen_05" DisplayName="DisplayName_Screen_Keyboard" TextureResolution="256" ScreenWidth="5" ScreenHeight="3" Script="TSS_ArtificialHorizon"/>
+					<ScreenArea Name="CockpitScreen_06" DisplayName="DisplayName_Screen_Numpad" TextureResolution="256" ScreenWidth="4" ScreenHeight="5" />
 				</ScreenAreas>
 			<BlockPairName>CockpitIndustrial</BlockPairName>
 			<MirroringZ>Y</MirroringZ>

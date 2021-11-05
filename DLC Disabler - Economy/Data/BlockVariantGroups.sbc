@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EconomyGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\ATM.dds</Icon>
+            <DisplayName>DisplayName_Block_ATM</DisplayName>
+            <Description>Description_AtmBlock</Description>
+            <Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Monolith" />
+                <!--<Block Type="MyObjectBuilder_StoreBlock" Subtype="AtmBlock" />
+                <Block Type="MyObjectBuilder_VendingMachine" Subtype="VendingMachine" />
+                <Block Type="MyObjectBuilder_VendingMachine" Subtype="FoodDispenser" />-->
+            </Blocks>
+        </BlockVariantGroup>
+        
+    </BlockVariantGroups>
+</Definitions>

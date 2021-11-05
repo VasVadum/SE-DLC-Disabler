@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="OpenCockpitGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\OpenCockpitSmall.dds</Icon>
+            <DisplayName>DisplayName_Block_OpenCockpitSmall</DisplayName>
+            <Description>Description_ControlStation</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpit" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="CockpitOpen" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="OpenCockpitLarge" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="OpenCockpitSmall" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="RoverCockpit" />
+                <!--<Block Type="MyObjectBuilder_Cockpit" Subtype="BuggyCockpit" />-->
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="PassengerSeatLarge" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="PassengerSeatSmall" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="OffroadWheelSuspensionRightGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3_RacingRight.dds</Icon>
+            <DisplayName>DisplayName_Block_OffroadSuspension3x3</DisplayName>
+            <Description>Description_Suspension</Description>
+            <Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Monolith" />
+                <!--<Block Type="MyObjectBuilder_MotorSuspension" Subtype="OffroadSuspension3x3" />
+                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="OffroadSuspension5x5" />
+                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="OffroadSuspension1x1" />
+                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="OffroadSmallSuspension3x3" />
+                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="OffroadSmallSuspension5x5" />
+                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="OffroadSmallSuspension1x1" />-->
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="OffroadWheelSuspensionLeftGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3_RacingLeft.dds</Icon>
+            <DisplayName>DisplayName_Block_OffroadSuspension3x3mirrored</DisplayName>
+            <Description>Description_Suspension</Description>
+            <Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Monolith" />
+                <!--<Block Type="MyObjectBuilder_MotorSuspension" Subtype="OffroadSuspension3x3mirrored" />
+                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="OffroadSuspension5x5mirrored" />
+                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="OffroadSuspension1x1mirrored" />
+                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="OffroadSmallSuspension3x3mirrored" />
+                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="OffroadSmallSuspension5x5mirrored" />
+                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="OffroadSmallSuspension1x1mirrored" />-->
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="OffroadWheelStaticGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\Wheel3x3_Racing.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_OffroadWheelStaticGroup</DisplayName>
+            <Description>Description_Wheel</Description>
+            <Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Monolith" />
+                <!--<Block Type="MyObjectBuilder_Wheel" Subtype="OffroadWheel1x1" />
+                <Block Type="MyObjectBuilder_Wheel" Subtype="OffroadSmallWheel1x1" />
+                <Block Type="MyObjectBuilder_Wheel" Subtype="OffroadWheel3x3" />
+                <Block Type="MyObjectBuilder_Wheel" Subtype="OffroadSmallWheel3x3" />
+                <Block Type="MyObjectBuilder_Wheel" Subtype="OffroadWheel5x5" />
+                <Block Type="MyObjectBuilder_Wheel" Subtype="OffroadSmallWheel5x5" />-->
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ExhaustPipeGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\ExhaustPipe_Racing_Large.dds</Icon>
+            <DisplayName>DisplayName_Block_ExhaustPipe</DisplayName>
+            <Description>Description_ExhaustPipe</Description>
+            <Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Monolith" />
+                <!--<Block Type="MyObjectBuilder_ExhaustBlock" Subtype="LargeExhaustPipe" />
+                <Block Type="MyObjectBuilder_ExhaustBlock" Subtype="SmallExhaustPipe" />-->
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LightingGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\interior_light.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_LightingGroup</DisplayName>
+            <Description>Description_BlockGroup_LightingGroup</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="LargeBlockFrontLight" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="SmallBlockFrontLight" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallLight" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockSmallLight" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockLight_1corner" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockLight_2corner" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockLight_1corner" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockLight_2corner" />
+                <!--<Block Type="MyObjectBuilder_ReflectorLight" Subtype="RotatingLightLarge" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="RotatingLightSmall" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="OffsetLight" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="OffsetSpotlight" />-->
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ShutterGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\window.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_ShutterGroup</DisplayName>
+            <Description>Description_VerticalWindow</Description>
+            <Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Monolith" />
+                <!--<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWindowSquare" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWindowEdge" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="WindowWall" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="WindowWallLeft" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="WindowWallRight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Viewport1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Viewport2" />-->
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="BarredWindows" />
+            <Icon>Textures\GUI\Icons\Cubes\BarredWindow_Racing_Flat.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_BarredWindows</DisplayName>
+            <Description>Description_BarredWindow</Description>
+            <Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Monolith" />
+                <!--<Block Type="MyObjectBuilder_CubeBlock" Subtype="BarredWindow" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="BarredWindowSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="BarredWindowSide" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="BarredWindowFace" />-->
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="StorageShelves" />
+            <Icon>Textures\GUI\Icons\Cubes\Shelf_1.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_StorageShelves</DisplayName>
+            <Description>Description_StorageShelf</Description>
+            <Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Monolith" />
+                <!--<Block Type="MyObjectBuilder_CubeBlock" Subtype="StorageShelf1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="StorageShelf2" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="StorageShelf3" />-->
+            </Blocks>
+        </BlockVariantGroup>
+        
+    </BlockVariantGroups>
+</Definitions>

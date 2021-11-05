@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="InteriorStructureGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\cover_wall_full.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_InteriorStructureGroup</DisplayName>
+            <Description>Description_BlockGroup_InteriorStructureGroup</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockInteriorWall" />
+                <!--<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockSciFiWall" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeInteriorPillar" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeCoverWall" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeCoverWallHalf" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="FireCover" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="FireCoverCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockCylindricalColumn" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockCylindricalColumn" />-->
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>            
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LockersGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\LockerRoom.dds</Icon>
+            <DisplayName>DisplayName_Block_LockerRoom</DisplayName>
+            <Description>Description_LockerRoomCorner</Description>
+            <Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Monolith" />
+                <!--<Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLockerRoom" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLockerRoomCorner" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLockers" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockWeaponRack" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockWeaponRack" />-->
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="InteriorBlockGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\passage.dds</Icon>
+            <DisplayName>DisplayName_Block_Passage</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Passage" Subtype="" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Passage2" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Passage2Wall" />
+                <!--<Block Type="MyObjectBuilder_CubeBlock" Subtype="PassageSciFi" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="PassageSciFiLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="PassageSciFiWall" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="PassageSciFiIntersection" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="PassageSciFiGate" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="PassageScifiCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="PassageSciFiTjunction" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="PassageSciFiWindow" />-->
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="HalfWindowGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\HalfWindow.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_HalfWindows</DisplayName>
+            <Description>Description_Window</Description>
+            <Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Monolith" />
+                <!--<Block Type="MyObjectBuilder_CubeBlock" Subtype="HalfWindow" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="HalfWindowInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="HalfWindowCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="HalfWindowCornerInv" />-->
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EmbrasureGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\Embrasure.dds</Icon>
+            <DisplayName>DisplayName_Block_Embrasure</DisplayName>
+            <Description>Description_Embrasure</Description>
+            <Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Monolith" />
+                <!--<Block Type="MyObjectBuilder_CubeBlock" Subtype="Embrasure" />-->
+            </Blocks>
+        </BlockVariantGroup>
+        
+    </BlockVariantGroups>
+</Definitions>
